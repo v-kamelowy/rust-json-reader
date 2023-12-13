@@ -30,8 +30,6 @@ fn main() {
     let args: Vec<String> = args().collect();
     let file_name = &args[1];
     let _file = std::fs::File::open(file_name).expect("could not open file");
-    //print file_name
-    //get file contents to string
     let file_contents = std::fs::read_to_string(file_name).expect("could not read file");
     println!("{}", file_contents);
 }

@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 jwalk = "0.5"
 rocket = "0.5.0"
+serde_json = "1.0.108"
